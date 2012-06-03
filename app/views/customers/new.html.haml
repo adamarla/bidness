@@ -1,0 +1,15 @@
+%h1 New Customers Form
+%p Find me in app/views/customers/new.html.haml
+#sign-up-form
+  = form_for :customer, :remote => true, :url => customer_path do |f|
+
+    = f.label :name
+    = f.text_field :name
+    %br
+    = f.label :email
+    = f.text_field :email
+    %br
+    = f.label :kind
+    = f.text_field :kind
+    %br
+    = f.submit "create customer"
