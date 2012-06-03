@@ -1,0 +1,4 @@
+bidness
+=======
+
+basic bidness stuff

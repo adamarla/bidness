@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Bidness::Application.config.secret_token = 'd63b0dd3b333e6f3881424f2641ff6105bee0f2082b70de7a4052366bbf0f3e9325f5a6f6a691851cb8dd16fac576100e4feb745f4533778624f361163144456'
+Bidness::Application.config.secret_token = '2c06535d2e9baaf81c71037025e8c7819586436f09f97df2230d0ad72a702b8f0f79752770b9decc130021332e4c708ff528db88bc0d7be9a4db8e156bae8bdb'
